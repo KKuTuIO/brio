@@ -1,0 +1,83 @@
+
+.brio-embed #column-one, .brio-embed #footer, .brio-embed #siteSub, .brio-embed #jump-to-nav, .brio-embed .mw-indicators, .brio-embed #p-cactions, .brio-embed #p-personal, .brio-embed #p-logo, .brio-embed .portlet, .brio-embed #mw-head, .brio-embed #mw-panel { display: none !important; }
+.brio-embed #globalWrapper, .brio-embed #column-content, .brio-embed #content, .brio-embed #bodyContent, .brio-embed #mw-content-text { margin: 0 !important; padding: 0 !important; border: 0 !important; background: transparent !important; width: auto !important; max-width: none !important; float: none !important; position: static !important; min-width: 0 !important; }
+.brio-embed body, .brio-embed #bodyContent, .brio-embed #content { font: inherit !important; font-size: 15px !important; line-height: 1.65; color: var(--kk-text) !important; background: transparent !important; }
+html.brio-embed { background: transparent; color: var(--kk-text); font-family: var(--font-body); font-size: 15px; line-height: 1.65; }
+.brio-embed body { margin: 0; padding: 0; background: transparent; color: inherit; }
+
+.brio-embed body > form, .brio-embed #firstHeading, .brio-embed #mw-content-subtitle:empty, .brio-embed .mw-fallbackSearchButton, .brio-embed #siteSub, .brio-embed #jump-to-nav, .brio-embed .printfooter, .brio-embed #catlinks:empty { display: none !important; }
+.brio-embed .mw-body, .brio-embed .mw-body-content { margin: 0; padding: 0; max-width: none; background: none; }
+.brio-embed a { color: var(--kk-blue); text-decoration: none; } .brio-embed a:hover { text-decoration: underline; }
+.brio-embed a.new { color: var(--kk-red-link); }
+.brio-embed h1, .brio-embed h2, .brio-embed h3, .brio-embed h4 { font-weight: 800; line-height: 1.35; margin: 1.4em 0 0.6em; color: var(--kk-text); border-bottom: 0; }
+.brio-embed h2 { font-size: 1.3rem; padding-bottom: 0.2em; border-bottom: 1px solid var(--kk-line-strong); }
+.brio-embed h3 { font-size: 1.12rem; } .brio-embed h4 { font-size: 1rem; }
+.brio-embed p { margin: 0.7em 0; }
+.brio-embed ul { list-style: disc; padding-left: 1.5rem; } .brio-embed ol { list-style: decimal; padding-left: 1.5rem; }
+.brio-embed hr { border: 0; border-top: 1px solid var(--kk-line); margin: 1.2em 0; }
+.brio-embed code, .brio-embed pre, .brio-embed tt { font-family: var(--font-mono); font-size: 0.9em; }
+.brio-embed pre { background: var(--kk-surface-2); border: 1px solid var(--kk-line); border-radius: 0.375rem; padding: 0.8em 1em; overflow-x: auto; }
+.brio-embed img { max-width: 100%; height: auto; }
+
+.brio-embed table { border-collapse: collapse; max-width: 100%; }
+.brio-embed .wikitable, .brio-embed .mw-datatable, .brio-embed table.mw-changeslist-table, .brio-embed .table { border: 1px solid var(--kk-line-strong); }
+.brio-embed .wikitable th, .brio-embed .wikitable td, .brio-embed .mw-datatable th, .brio-embed .mw-datatable td { border: 1px solid var(--kk-line-strong); padding: 0.4em 0.7em; background: var(--kk-surface); }
+.brio-embed .wikitable th, .brio-embed .mw-datatable th { background: var(--kk-surface-2); font-weight: 800; }
+.brio-embed .mw-datatable tr:hover td { background: var(--kk-accent-soft); }
+
+.brio-embed .mw-message-box, .brio-embed .cdx-message, .brio-embed .errorbox, .brio-embed .warningbox, .brio-embed .successbox, .brio-embed .mw-warning-with-logexcerpt, .brio-embed .plainlinks.mw-message-box { margin: 1em 0; padding: 0.7em 1em; border: 1px solid var(--kk-line-strong); border-left-width: 4px; border-radius: 0.375rem; background: var(--kk-surface-2); color: var(--kk-text); }
+.brio-embed .mw-message-box-error, .brio-embed .cdx-message--error, .brio-embed .errorbox { border-color: var(--kk-danger); background: var(--kk-danger-soft); }
+.brio-embed .mw-message-box-warning, .brio-embed .cdx-message--warning, .brio-embed .warningbox { border-color: var(--kk-warn); background: var(--kk-warn-soft); }
+.brio-embed .mw-message-box-success, .brio-embed .cdx-message--success, .brio-embed .successbox { border-color: var(--kk-accent); background: var(--kk-accent-soft); }
+
+.brio-embed input:not([type]), .brio-embed input[type='text'], .brio-embed input[type='search'], .brio-embed input[type='password'], .brio-embed input[type='email'], .brio-embed input[type='number'], .brio-embed input[type='date'], .brio-embed input[type='url'], .brio-embed select, .brio-embed textarea {
+	background: var(--kk-surface); color: var(--kk-text); border: 1px solid var(--kk-line-strong); border-radius: 0.375rem; padding: 0.45rem 0.65rem; font: inherit; min-height: 2.4rem; box-sizing: border-box; max-width: 100%;
+}
+.brio-embed input:focus, .brio-embed select:focus, .brio-embed textarea:focus { outline: none; border-color: var(--kk-accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--kk-accent) 25%, transparent); }
+.brio-embed input[type='checkbox'], .brio-embed input[type='radio'] { accent-color: var(--kk-accent-strong); }
+.brio-embed button, .brio-embed input[type='submit'], .brio-embed input[type='button'], .brio-embed .mw-ui-button, .brio-embed .cdx-button {
+	display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem; min-height: 2.4rem; padding: 0 1rem; border-radius: 0.375rem; border: 1px solid var(--kk-line-strong); background: var(--kk-surface); color: var(--kk-text); font: inherit; font-weight: 700; cursor: pointer;
+}
+.brio-embed button:hover, .brio-embed input[type='submit']:hover, .brio-embed .cdx-button:hover { background: var(--kk-accent-soft); }
+.brio-embed .mw-htmlform-submit, .brio-embed .mw-ui-progressive, .brio-embed .cdx-button--action-progressive, .brio-embed .oo-ui-flaggedElement-progressive.oo-ui-flaggedElement-primary .oo-ui-buttonElement-button { background: var(--kk-fill); color: #fff; border-color: transparent; }
+.brio-embed .mw-htmlform-submit:hover, .brio-embed .mw-ui-progressive:hover { background: var(--kk-fill); filter: brightness(1.07); }
+.brio-embed .mw-ui-destructive, .brio-embed .cdx-button--action-destructive { background: #dc2626; color: #fff; border-color: transparent; }
+.brio-embed fieldset { border: 1px solid var(--kk-line); border-radius: 0.5rem; margin: 1em 0; padding: 0.6em 1em 1em; background: var(--kk-surface); }
+.brio-embed legend { font-weight: 800; padding: 0 0.4em; }
+.brio-embed label { font-weight: 700; }
+
+.brio-embed .oo-ui-widget, .brio-embed .oo-ui-labelElement-label { color: var(--kk-text); font-family: inherit; }
+.brio-embed .oo-ui-inputWidget-input, .brio-embed .oo-ui-textInputWidget input, .brio-embed .oo-ui-dropdownWidget-handle, .brio-embed .oo-ui-comboBoxInputWidget input {
+	background: var(--kk-surface) !important; color: var(--kk-text) !important; border: 1px solid var(--kk-line-strong) !important; border-radius: 0.375rem !important; box-shadow: none !important;
+}
+.brio-embed .oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus, .brio-embed .oo-ui-dropdownWidget-handle:focus { border-color: var(--kk-accent) !important; box-shadow: 0 0 0 3px color-mix(in srgb, var(--kk-accent) 25%, transparent) !important; }
+.brio-embed .oo-ui-buttonElement-framed > .oo-ui-buttonElement-button { background: var(--kk-surface) !important; color: var(--kk-text) !important; border: 1px solid var(--kk-line-strong) !important; border-radius: 0.375rem !important; }
+.brio-embed .oo-ui-buttonElement-framed.oo-ui-flaggedElement-progressive.oo-ui-flaggedElement-primary > .oo-ui-buttonElement-button { background: var(--kk-fill) !important; color: #fff !important; border-color: transparent !important; }
+.brio-embed .oo-ui-buttonElement-framed.oo-ui-flaggedElement-destructive.oo-ui-flaggedElement-primary > .oo-ui-buttonElement-button { background: #dc2626 !important; color: #fff !important; border-color: transparent !important; }
+.brio-embed .oo-ui-fieldsetLayout { border: 1px solid var(--kk-line); border-radius: 0.5rem; padding: 0.4em 1em 1em; margin: 1em 0; background: var(--kk-surface); }
+.brio-embed .oo-ui-fieldsetLayout > .oo-ui-fieldsetLayout-header .oo-ui-labelElement-label { font-weight: 800; font-size: 1.05rem; }
+.brio-embed .oo-ui-fieldLayout-help, .brio-embed .oo-ui-fieldLayout-messages .oo-ui-fieldLayout-help { color: var(--kk-muted); }
+.brio-embed .oo-ui-menuLayout-content, .brio-embed .oo-ui-panelLayout-framed, .brio-embed .oo-ui-panelLayout-expanded { background: transparent !important; border-color: var(--kk-line) !important; }
+.brio-embed .oo-ui-tabSelectWidget { background: transparent; border-bottom: 1px solid var(--kk-line-strong); }
+.brio-embed .oo-ui-tabOptionWidget { background: transparent !important; color: var(--kk-muted); border-radius: 0.375rem 0.375rem 0 0; }
+.brio-embed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { color: var(--kk-text) !important; background: var(--kk-surface) !important; border-bottom: 3px solid var(--kk-accent); font-weight: 800; }
+.brio-embed .oo-ui-menuSelectWidget, .brio-embed .oo-ui-popupWidget-popup { background: var(--kk-surface) !important; color: var(--kk-text) !important; border: 1px solid var(--kk-line-strong) !important; border-radius: 0.375rem; }
+.brio-embed .oo-ui-optionWidget-highlighted, .brio-embed .oo-ui-optionWidget-selected { background: var(--kk-accent-soft) !important; color: var(--kk-text) !important; }
+.brio-embed .oo-ui-checkboxInputWidget [type='checkbox'] + span, .brio-embed .oo-ui-radioInputWidget [type='radio'] + span { border-color: var(--kk-line-strong) !important; background: var(--kk-surface) !important; }
+.brio-embed .oo-ui-icon-error, .brio-embed .oo-ui-icon-info, .brio-embed .oo-ui-icon-alert { filter: none; }
+
+.brio-embed .cdx-text-input__input, .brio-embed .cdx-select, .brio-embed .cdx-textarea__textarea { background: var(--kk-surface); color: var(--kk-text); border-color: var(--kk-line-strong); }
+.brio-embed .cdx-card, .brio-embed .cdx-dialog { background: var(--kk-surface); color: var(--kk-text); border-color: var(--kk-line); }
+
+.brio-embed .mw-collapsible-toggle-default.mw-collapsible-toggle-legacy { display: none; }
+
+.brio-embed .mw-changeslist, .brio-embed .mw-contributions-list, .brio-embed ul.mw-contributions-list { list-style: none; padding: 0; }
+.brio-embed .mw-changeslist-line, .brio-embed .mw-contributions-list li { padding: 0.35rem 0; border-bottom: 1px solid var(--kk-line); }
+.brio-embed .mw-plusminus-pos { color: #16a34a; font-weight: 700; } .brio-embed .mw-plusminus-neg { color: #dc2626; font-weight: 700; } .brio-embed .mw-plusminus-null { color: var(--kk-muted); }
+.brio-embed .comment, .brio-embed .mw-comment, .brio-embed .history-user, .brio-embed .mw-usertoollinks { color: var(--kk-muted); font-size: 0.9em; }
+.brio-embed .toc { display: inline-block; border: 1px solid var(--kk-line-strong); background: var(--kk-surface-2); border-radius: 0.375rem; padding: 0.4rem 1rem; }
+.brio-embed .toc ul { list-style: none; padding-left: 1rem; }
+.brio-embed .mw-pager-navigation-bar, .brio-embed .mw-pager-body { margin: 0.6em 0; }
+.brio-embed .toctogglespan { display: none; }
+.brio-embed .mw-specialpages-notes, .brio-embed .mw-specialpages-notes table { background: var(--kk-surface-2) !important; color: var(--kk-text) !important; border-color: var(--kk-line-strong) !important; }
+.brio-embed .oo-ui-fieldsetLayout-group, .brio-embed .oo-ui-fieldsetLayout > .oo-ui-fieldsetLayout-header { background: transparent; }

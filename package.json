@@ -1,0 +1,35 @@
+{
+	"name": "brio",
+	"version": "0.0.1",
+	"private": true,
+	"license": "GPL-3.0-or-later",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev --host",
+		"build": "vite build",
+		"preview:cf": "wrangler pages dev .svelte-kit/cloudflare",
+		"deploy": "vite build && wrangler pages deploy .svelte-kit/cloudflare --project-name brio-wiki",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-cloudflare": "^7.2.9",
+		"@sveltejs/kit": "2.70.3",
+		"@sveltejs/vite-plugin-svelte": "7.3.0",
+		"@tailwindcss/vite": "4.3.3",
+		"@types/node": "^24.19.2",
+		"playwright-core": "^1.65.0",
+		"svelte": "5.56.10",
+		"svelte-check": "4.7.6",
+		"tailwindcss": "4.3.3",
+		"typescript": "6.0.3",
+		"vite": "8.2.2",
+		"vitest": "4.1.11",
+		"wrangler": "^4.158.0"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "5.15.4",
+		"@kkutuio/ui": "0.1.0",
+		"monaco-editor": "^0.52.0"
+	}
+}

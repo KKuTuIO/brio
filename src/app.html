@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.ico" sizes="any" />
+		<link rel="apple-touch-icon" href="/brand/bi_profile_main.png" />
+		<meta name="theme-color" content="#16a34a" />
+		<script>
+			try {
+				var s = JSON.parse(localStorage.getItem('brio_settings') || '{}');
+				var r = document.documentElement;
+				if (s.theme === 'light' || s.theme === 'dark') r.dataset.theme = s.theme;
+				if (s.black) r.setAttribute('data-black', '1');
+			} catch (e) {}
+		</script>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

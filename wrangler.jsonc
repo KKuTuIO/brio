@@ -1,0 +1,12 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "brio-wiki",
+	"pages_build_output_dir": ".svelte-kit/cloudflare",
+	"compatibility_date": "2026-09-01",
+	"compatibility_flags": ["nodejs_compat"],
+	"vars": {
+		"MW_ORIGIN": "https://kkutu.wiki",
+		"NOINDEX": "1",
+		"NAVBAR_PAGE": "MediaWiki:Liberty-Navbar"
+	}
+}
